@@ -1,4 +1,4 @@
-﻿Log file open, 11/03/18 17:34:20
+﻿Log file open, 11/03/18 18:27:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GJ_TeamCarry
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.338638
+LogStats: Stats thread started at 0.358690
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.262s to configure plugins.
+LogStreaming: Display: Took  0.282s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,12 +118,12 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU:       Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="volkanhto" -epicuserid=8c43f846cfb54a83be397d83d4336c00 -epiclocale=en-US
+LogInit: Command Line: -EpicPortal  -epicusername="megede" -epicuserid=cc3f9436d5ef46eab972a81d170eca09 -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,9 +147,10 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.11.03-14.34.20:673][  0]LogInit: Selected Device Profile: [Windows]
 [2018.11.03-14.34.20:673][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.11.03-14.34.20:701][  0]LogHAL: Display: Platform has ~ 16 GB [17071804416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
@@ -1119,3 +1120,596 @@ LogInit: Object subsystem initialized
 [2018.11.03-16.17.25:693][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.11.03-16.17.54:635][ 15]BlueprintLog: New page: Compile MyCharacter
 [2018.11.03-16.17.55:519][ 23]LogSavePackage: Moving '../../../../../../Users/MSI/Documents/[Unreal Projects]/GitClone/Team Carry/TeamCarry/GJ_TeamCarry/Saved/MyCharacter8A3FCB954C4880262EA973A8CE18D44F.tmp' to '../../../../../../Users/MSI/Documents/[Unreal Projects]/GitClone/Team Carry/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Volkan/MyCharacter.uasset'
+=======
+[2018.11.03-15.27.06:149][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-15.27.06:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.03-15.27.06:171][  0]LogHAL: Display: Platform has ~ 16 GB [17087881216 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.03-15.27.06:171][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.03-15.27.06:171][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.03-15.27.06:171][  0]LogInit: Computer: DESKTOP-28I2SJ6
+[2018.11.03-15.27.06:171][  0]LogInit: User: mglenovo
+[2018.11.03-15.27.06:171][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.03-15.27.06:171][  0]LogInit: High frequency timer resolution =2.435781 MHz
+[2018.11.03-15.27.06:172][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.03-15.27.06:172][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-15.27.06:172][  0]LogMemory: Process Physical Memory: 99.73 MB used, 99.73 MB peak
+[2018.11.03-15.27.06:172][  0]LogMemory: Process Virtual Memory: 90.90 MB used, 90.90 MB peak
+[2018.11.03-15.27.06:172][  0]LogMemory: Physical Memory: 4589.79 MB used,  11706.48 MB free, 16296.27 MB total
+[2018.11.03-15.27.06:172][  0]LogMemory: Virtual Memory: 4644.90 MB used,  11706.48 MB free, 134217728.00 MB total
+[2018.11.03-15.27.06:205][  0]LogInit: Using OS detected language (tr-TR).
+[2018.11.03-15.27.06:205][  0]LogInit: Using OS detected locale (tr-TR).
+[2018.11.03-15.27.06:206][  0]LogTextLocalizationManager: No localization for 'tr-TR' exists, so 'en' will be used for the language.
+[2018.11.03-15.27.06:798][  0]LogStreaming: Display: Took  0.593s to InitEngineTextLocalization.
+[2018.11.03-15.27.06:798][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.03-15.27.06:831][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.03-15.27.06:831][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.03-15.27.07:193][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.03-15.27.07:193][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.03-15.27.07:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2018.11.03-15.27.07:236][  0]LogD3D11RHI:       4064/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.03-15.27.07:246][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.11.03-15.27.07:246][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.03-15.27.07:252][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.03-15.27.07:252][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.03-15.27.07:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.03-15.27.07:294][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.03-15.27.07:294][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.03-15.27.07:294][  0]LogWindows: EnumDisplayDevices:
+[2018.11.03-15.27.07:294][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.11.03-15.27.07:295][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.11.03-15.27.07:295][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.11.03-15.27.07:296][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.03-15.27.07:296][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2018.11.03-15.27.07:296][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.03-15.27.07:296][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.03-15.27.07:296][  0]LogRHI: Texture pool is 2845 MB (70% of 4064 MB)
+[2018.11.03-15.27.07:329][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.03-15.27.07:343][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.03-15.27.07:345][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Intermediate/Shaders/WorkingDirectory/9236/).
+[2018.11.03-15.27.07:345][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mg-lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/CFF5313C4E13BE7F556CC79F7419FAA6/'.
+[2018.11.03-15.27.07:934][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.03-15.27.07:957][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.03-15.27.07:978][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.03-15.27.07:999][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.03-15.27.08:021][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.03-15.27.08:043][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.03-15.27.08:064][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.03-15.27.08:093][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.03-15.27.08:104][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-15.27.08:228][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.03-15.27.08:309][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.03-15.27.08:309][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.03-15.27.08:347][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-15.27.08:347][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-15.27.08:375][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.03-15.27.08:396][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.03-15.27.08:415][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.03-15.27.08:435][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.03-15.27.08:450][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.03-15.27.08:451][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.03-15.27.08:596][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.03-15.27.08:596][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.03-15.27.08:596][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.03-15.27.09:751][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.03-15.27.09:889][  0]LogDerivedDataCache: Loaded boot cache 0.14s 79MB C:/Users/mg-lenovo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.03-15.27.09:891][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mg-lenovo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.03-15.27.09:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-15.27.09:892][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.03-15.27.09:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.03-15.27.09:892][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.03-15.27.09:911][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.03-15.27.09:924][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mg-lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.03-15.27.09:924][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.03-15.27.09:924][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.03-15.27.09:952][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.03-15.27.09:954][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.03-15.27.09:955][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-15.27.10:057][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.11.03-15.27.10:551][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-15.27.10:765][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.03-15.27.10:773][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.03-15.27.10:773][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.03-15.27.10:773][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.03-15.27.10:773][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.03-15.27.10:792][  0]LogNetVersion: GJ_TeamCarry 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3632271904)
+[2018.11.03-15.27.11:579][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.167095 seconds
+[2018.11.03-15.27.11:588][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.03-15.27.11:588][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.03-15.27.11:588][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.03-15.27.13:055][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.03-15.27.13:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.03-15.27.13:280][  0]SourceControl: Source control is disabled
+[2018.11.03-15.27.13:280][  0]SourceControl: Source control is disabled
+[2018.11.03-15.27.13:283][  0]SourceControl: Source control is disabled
+[2018.11.03-15.27.13:285][  0]SourceControl: Source control is disabled
+[2018.11.03-15.27.13:502][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.03-15.27.13:645][  0]LogOcInput: OculusInput pre-init called
+[2018.11.03-15.27.13:738][  0]LogEngine: Initializing Engine...
+[2018.11.03-15.27.13:739][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.03-15.27.13:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-15.27.13:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-15.27.13:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-15.27.13:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-15.27.14:065][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.03-15.27.14:099][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.03-15.27.14:134][  0]LogInit: XAudio2 using 'Hoparlör (C-Media USB Audio Device   )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-15.27.14:154][  0]LogInit: FAudioDevice initialized.
+[2018.11.03-15.27.14:154][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.03-15.27.14:490][  0]LogDerivedDataCache: Saved boot cache 0.34s 79MB C:/Users/mg-lenovo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.03-15.27.14:538][  0]LogInit: Texture streaming: Enabled
+[2018.11.03-15.27.14:572][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.03-15.27.14:605][  0]LogInit: Transaction tracking system initialized
+[2018.11.03-15.27.14:669][  0]BlueprintLog: New page: Editor Load
+[2018.11.03-15.27.14:843][  0]LocalizationService: Localization service is disabled
+[2018.11.03-15.27.15:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.03-15.27.15:455][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.03-15.27.15:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.03-15.27.15:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-15.27.15:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-15.27.15:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-15.27.15:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-15.27.15:681][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/' took 0.02s
+[2018.11.03-15.27.15:681][  0]SourceControl: Source control is disabled
+[2018.11.03-15.27.15:838][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-15.27.15:841][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.03-15.27.28:039][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.11.03-15.27.28:040][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-15.27.28:042][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-15.27.28:054][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.03-15.27.28:055][  0]LightingResults: New page: Lighting Build
+[2018.11.03-15.27.28:062][  0]MapCheck: New page: Map Check
+[2018.11.03-15.27.28:062][  0]LightingResults: New page: Lighting Build
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2018.11.03-15.27.29:089][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2018.11.03-15.27.31:708][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2018.11.03-15.27.31:708][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2018.11.03-15.27.31:708][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2018.11.03-15.27.31:708][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2018.11.03-15.27.31:708][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2018.11.03-15.27.31:709][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2018.11.03-15.27.32:768][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2018.11.03-15.27.32:768][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2018.11.03-15.27.32:768][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2018.11.03-15.27.32:768][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2018.11.03-15.27.32:768][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2018.11.03-15.27.34:530][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.03-15.27.35:372][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-15.27.35:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-15.27.35:577][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147,411ms to complete.
+[2018.11.03-15.27.35:577][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 7.524
+[2018.11.03-15.27.36:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.27.36:138][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.27.36:156][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.27.36:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.27.36:313][  0]LogCollectionManager: Loaded 0 collections in 0.011628 seconds
+[2018.11.03-15.27.36:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Collections/' took 0.01s
+[2018.11.03-15.27.36:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/Developers/mglenovo/Collections/' took 0.01s
+[2018.11.03-15.27.36:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/Collections/' took 0.01s
+[2018.11.03-15.27.36:951][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.03-15.27.37:089][  0]LogContentBrowser: Native class hierarchy populated in 0.1059 seconds. Added 2572 classes and 603 folders.
+[2018.11.03-15.27.37:265][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.03-15.27.39:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.03-15.27.39:541][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.03-15.27.40:700][  0]LogSlate: Took 0.000885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.03-15.27.40:803][  0]LogSlate: Took 0.030791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.03-15.27.41:233][  0]LogRenderer: Reallocating scene render targets to support 744x492 Format 10 NumSamples 1 (Frame:1).
+[2018.11.03-15.27.41:964][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.03-15.27.41:964][  0]LogLoad: (Engine Initialization) Total time: 39.87 seconds
+[2018.11.03-15.27.41:964][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.03-15.27.42:046][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.03-15.27.42:107][  0]LogSlate: Took 0.041981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.03-15.27.42:228][  2]LogAssetRegistry: Asset discovery search completed in 32.1937 seconds
+[2018.11.03-15.27.42:231][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.03-15.27.42:231][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.11.03-15.27.43:028][ 29]LogSlate: Took 0.000674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.03-15.27.50:962][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.28.16:173][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.28.16:239][ 14]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.03-15.28.16:276][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.28.16:276][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.03-15.28.16:297][ 14]PIE: New page: PIE session: FirstPersonExampleMap (3 Kas 2018 20:28:16)
+[2018.11.03-15.28.16:297][ 14]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.03-15.28.16:376][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078985s)
+[2018.11.03-15.28.16:377][ 14]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.03-15.28.16:377][ 14]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2018.11.03-15.28.16:377][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.080545s)
+[2018.11.03-15.28.16:426][ 14]LogInit: XAudio2 using 'Hoparlör (C-Media USB Audio Device   )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-15.28.16:440][ 14]LogInit: FAudioDevice initialized.
+[2018.11.03-15.28.16:526][ 14]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.03-15.28.16:531][ 14]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.03-18.28.16
+[2018.11.03-15.28.16:548][ 14]LogWorld: Bringing up level for play took: 0.019588
+[2018.11.03-15.28.16:617][ 14]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.11.03-15.28.16:618][ 14]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0,633
+[2018.11.03-15.28.16:618][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.29.17:488][645]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2046.931 Y=-1751.450 Z=321.333] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.19:871][788]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1958.479 Y=-1807.952 Z=254.302] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.24:222][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1440.575 Y=-472.669 Z=269.551] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.24:405][ 60]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1398.228 Y=-424.324 Z=306.916] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.27:140][224]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1248.883 Y=-495.027 Z=376.371] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.27:340][236]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1224.796 Y=-511.165 Z=342.438] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.27:522][247]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1170.980 Y=-520.674 Z=325.739] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.27:739][260]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1130.661 Y=-534.657 Z=306.239] for [FirstPersonProjectile_C]
+[2018.11.03-15.29.41:639][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.29.41:680][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.29.41:719][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.03-15.29.41:719][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.29.41:748][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.29.41:821][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.11.03-15.30.27:030][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.30.27:130][800]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.03-15.30.27:148][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.30.27:148][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.03-15.30.27:148][800]PIE: New page: PIE session: FirstPersonExampleMap (3 Kas 2018 20:30:27)
+[2018.11.03-15.30.27:148][800]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.03-15.30.27:170][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021310s)
+[2018.11.03-15.30.27:171][800]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.03-15.30.27:171][800]LogPlayLevel: PIE: World Init took: (0.001289s)
+[2018.11.03-15.30.27:171][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022874s)
+[2018.11.03-15.30.27:212][800]LogInit: XAudio2 using 'Hoparlör (C-Media USB Audio Device   )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-15.30.27:225][800]LogInit: FAudioDevice initialized.
+[2018.11.03-15.30.27:298][800]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.03-15.30.27:301][800]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.03-18.30.27
+[2018.11.03-15.30.27:302][800]LogWorld: Bringing up level for play took: 0.002623
+[2018.11.03-15.30.27:315][800]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,669
+[2018.11.03-15.30.27:315][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.30.50:799][206]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-4.781 Y=-755.533 Z=141.561] for [FirstPersonProjectile_C]
+[2018.11.03-15.30.50:964][216]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-6.642 Y=-875.242 Z=146.453] for [FirstPersonProjectile_C]
+[2018.11.03-15.30.51:114][225]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-7.634 Y=-889.707 Z=145.693] for [FirstPersonProjectile_C]
+[2018.11.03-15.30.51:300][236]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-9.432 Y=-817.347 Z=151.571] for [FirstPersonProjectile_C]
+[2018.11.03-15.32.38:851][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.32.38:851][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.32.38:901][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.03-15.32.38:901][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.03-15.32.38:958][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-15.32.39:025][685]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.03-15.32.41:199][804]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-15.32.42:592][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-15.32.47:623][883]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.03-15.32.48:289][888]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GJTeamCarry
+[2018.11.03-15.32.48:289][888]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.03-15.32.48:289][888]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.03-15.32.48:289][888]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.03-15.32.48:306][889]LogTemp: BranchPath = DESKTOP-28I2SJ6/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-28I2SJ6/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.03-15.32.48:596][902]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mg-lenovo\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.03-15.33.02:815][742]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.03-15.33.02:819][742]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.03-15.34.51:303][231]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.11.03-15.34.54:813][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.34.56:459][455]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.11.03-15.34.57:913][455]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.11.03-15.35.00:455][455]LogSlate: Took 0.016352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.03-15.35.01:048][456]LogSlate: Took 0.012302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.03-15.35.03:180][537]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2018.11.03-15.40.45:348][330]LogRenderer: Reallocating scene render targets to support 748x492 Format 10 NumSamples 1 (Frame:14238).
+[2018.11.03-15.40.45:408][331]LogRenderer: Reallocating scene render targets to support 756x492 Format 10 NumSamples 1 (Frame:14240).
+[2018.11.03-15.40.45:500][332]LogRenderer: Reallocating scene render targets to support 776x492 Format 10 NumSamples 1 (Frame:14242).
+[2018.11.03-15.40.45:546][333]LogRenderer: Reallocating scene render targets to support 784x492 Format 10 NumSamples 1 (Frame:14244).
+[2018.11.03-15.40.45:592][334]LogRenderer: Reallocating scene render targets to support 792x492 Format 10 NumSamples 1 (Frame:14246).
+[2018.11.03-15.46.32:840][ 64]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/mege/EnemyAI/EnemyAIBlackboard.EnemyAIBlackboard
+[2018.11.03-15.46.36:009][243]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/mege/EnemyAI/EnemyAIBT.EnemyAIBT
+[2018.11.03-15.47.05:941][844]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-15.47.14:047][321]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/mege/EnemyAI/EnemyAIController.
+[2018.11.03-15.47.21:579][550]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-15.47.49:330][936]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.03-15.47.53:196][ 32]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-15.48.00:681][475]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/mege/EnemyAI/EnemyAIController.
+[2018.11.03-15.48.20:659][795]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.03-15.52.33:999][612]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-15.52.37:078][789]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/mege/EnemyAI/NewBlueprint.
+[2018.11.03-15.52.37:168][789]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.031
+[2018.11.03-15.52.37:173][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mege/EnemyAI/EnemyAIBlackboard] ([1] browsable assets)...
+[2018.11.03-15.52.37:173][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/mege/EnemyAI/EnemyAIBlackboard]
+[2018.11.03-15.52.37:242][789]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBlackboard_Auto1C0920B8F44D0C4799212FBBC5FCCA2DA.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/mege/EnemyAI/EnemyAIBlackboard_Auto1.uasset'
+[2018.11.03-15.52.37:301][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mege/EnemyAI/EnemyAIBT] ([1] browsable assets)...
+[2018.11.03-15.52.37:301][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/mege/EnemyAI/EnemyAIBT]
+[2018.11.03-15.52.37:315][789]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBT_Auto14B9E12D04C08E0AEBC0363AF5B1EF69C.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/mege/EnemyAI/EnemyAIBT_Auto1.uasset'
+[2018.11.03-15.52.37:322][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mege/EnemyAI/NewBlueprint] ([1] browsable assets)...
+[2018.11.03-15.52.37:322][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/mege/EnemyAI/NewBlueprint]
+[2018.11.03-15.52.37:343][789]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/NewBlueprint_Auto1F07B7D1640E601ACB222E7B5380D813B.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/mege/EnemyAI/NewBlueprint_Auto1.uasset'
+[2018.11.03-15.52.37:348][789]LogFileHelpers: Auto-saving content packages took 0.178
+[2018.11.03-15.52.49:202][488]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAIController.EnemyAIController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/mege/EnemyAI/NewBlueprint.PackageMetaData'
+[2018.11.03-15.52.49:202][488]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAIController.SKEL_EnemyAIController_C' ref from Metadata '/Game/mege/EnemyAI/NewBlueprint.PackageMetaData'
+[2018.11.03-15.52.49:202][488]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAIController.EnemyAIController_C' ref from Metadata '/Game/mege/EnemyAI/NewBlueprint.PackageMetaData'
+[2018.11.03-15.52.49:202][488]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAIController.EnemyAIController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/mege/EnemyAI/NewBlueprint.PackageMetaData'
+[2018.11.03-15.52.49:202][488]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAIController.EnemyAIController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/mege/EnemyAI/NewBlueprint.PackageMetaData'
+[2018.11.03-15.52.49:257][488]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIController9756DBEF442A6831AEE9E6992C1A870C.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIController.uasset'
+[2018.11.03-15.52.49:649][494]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/mege/EnemyAI/EnemyAIController.
+[2018.11.03-15.53.05:537][442]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.11.03-15.53.07:345][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.53.17:793][153]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FirstPersonBP/Blueprints/EnemyAI.
+[2018.11.03-15.53.20:160][264]Cmd: EDIT CUT
+[2018.11.03-15.53.20:266][264]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2018.11.03-15.53.20:332][264]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:FP_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:Mesh2P' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:GunOffset' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:UsingMotionControllers?' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:344][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:Sphere' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:L_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:R_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:VR_Marker' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:VR_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.SKEL_EnemyAI_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UsingMotionControllers?' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:GunOffset' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:Mesh2P' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:FP_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:Sphere' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:L_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:R_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:VR_Marker' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:VR_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:345][182]LogMetaData: Removing '/Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemyAI.PackageMetaData'
+[2018.11.03-15.53.36:389][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAI" FILE="../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAI.uasset" SILENT=true
+[2018.11.03-15.53.36:570][182]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAI9F1321864F9C028730A2569B51DE5B2B.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAI.uasset'
+[2018.11.03-15.53.36:993][186]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/mege/EnemyAI/EnemyAI.
+[2018.11.03-15.53.43:678][578]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAI.EnemyAI
+[2018.11.03-15.55.05:259][485]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/FirstPersonExampleMap888E32B8465A0F7D951410927B336D05.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.11.03-15.55.05:309][485]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.571
+[2018.11.03-15.55.05:326][485]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBlackboard8DC9633649FA82A130422CA0FC92F068.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBlackboard.uasset'
+[2018.11.03-15.55.05:345][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAIBT" FILE="../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBT.uasset" SILENT=true
+[2018.11.03-15.55.05:359][485]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBTA28372564AF37A4A7653DFBDD6BA2393.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBT.uasset'
+[2018.11.03-15.55.05:416][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAI" FILE="../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAI.uasset" SILENT=true
+[2018.11.03-15.55.05:494][485]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAI3E201A814D2AF6BAC8606294EBBE7D85.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAI.uasset'
+[2018.11.03-15.55.40:966][431]LogRenderer: Reallocating scene render targets to support 792x524 Format 10 NumSamples 1 (Frame:1).
+[2018.11.03-15.55.58:097][398]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.55.58:099][398]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.55.58:148][398]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.55.59:836][497]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.55.59:837][497]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.55.59:881][497]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.03:127][681]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.03:129][681]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.03:186][681]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.04:155][731]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.04:156][731]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.04:197][731]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.05:032][779]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.05:033][779]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.05:068][779]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.07:822][943]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_110 via property FP_Gun, but TRASH_SkeletalMeshComponent_110 is pending kill
+	EnemyAI_C /Engine/Transient.World_4:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.07:823][943]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_130 via property FP_Gun, but TRASH_SkeletalMeshComponent_130 is pending kill
+	EnemyAI_C /Engine/Transient.World_5:PersistentLevel.EnemyAI_C_0
+	Function /Game/mege/EnemyAI/EnemyAI.EnemyAI_C:UserConstructionScript:0017
+[2018.11.03-15.56.25:861][957]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.03-15.56.25:862][957]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.03-15.56.27:001][ 24]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-15.57.00:277][783]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.03-15.57.00:305][783]LogSlate: Window 'EnemyAIBT' being destroyed
+[2018.11.03-15.57.11:940][346]Cmd: DELETE
+[2018.11.03-15.57.11:940][346]Cmd: ACTOR DELETE
+[2018.11.03-15.57.11:943][346]LogEditorActor: Deleted Actor: Character
+[2018.11.03-15.57.11:975][346]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.11.03-15.57.14:692][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.57.29:464][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.57.52:199][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.03-15.57.52:340][655]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.54:007][743]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.54:467][770]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.54:891][795]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.55:299][819]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.55:673][841]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.56:080][865]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.11.03-15.57.57:271][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-15.58.11:011][745]LogEditorActor: Deleted Actor: Character
+[2018.11.03-15.58.11:043][745]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.11.03-15.58.23:983][971]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-15.58.31:822][436]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/mege/EnemyAI/EnemyAICharacter.
+[2018.11.03-15.58.32:867][497]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAICharacter.EnemyAICharacter
+[2018.11.03-15.58.36:576][675]LogRenderer: Reallocating scene render targets to support 792x540 Format 10 NumSamples 1 (Frame:181).
+[2018.11.03-15.58.37:194][712]LogSlate: Window 'EnemyAICharacter*' being destroyed
+[2018.11.03-15.59.01:180][812]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-15.59.42:232][943]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-15.59.44:932][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-16.02.46:604][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonIdle.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.02.50:450][130]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.829 s
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: 
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\SlowTask.cpp] [Line: 86]
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: Stack: 
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb628e71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb62620c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb6263b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb626d30fe UE4Editor-Core.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb4a7b1c34 UE4Editor-AssetTools.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb4a7b0141 UE4Editor-AssetTools.dll!UnknownFunction []
+[2018.11.03-16.02.50:450][130]LogOutputDevice: Error: [Callstack] 0x00007ffb47c75990 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb47c3b4d9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb47c596c1 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb5f2a8a9e UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb5f341ff8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb5f327c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb5f317631 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb739bb154 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb739b0cec UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9efe300b ole32.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9ca946f3 RPCRT4.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9cafde1d RPCRT4.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9ca45524 RPCRT4.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e7f3942 combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e78e80b combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e78e485 combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e78ef06 combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e78b182 combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e789fcc combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e7b01fb combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9e7afb08 combase.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9cc26cc1 USER32.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9cc26693 USER32.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb739c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ff6d3ac54e5 UE4Editor.exe!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ff6d3ad5b3c UE4Editor.exe!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ff6d3ad5bba UE4Editor.exe!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ff6d3ae3dac UE4Editor.exe!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ff6d3ae5aaa UE4Editor.exe!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9cb63034 KERNEL32.DLL!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: [Callstack] 0x00007ffb9f341461 ntdll.dll!UnknownFunction []
+[2018.11.03-16.02.50:451][130]LogOutputDevice: Error: 
+[2018.11.03-16.02.50:457][130]LogStats:                SubmitErrorReport -  0.000 s
+[2018.11.03-16.03.03:187][130]LogStats:                    SendNewReport - 12.730 s
+[2018.11.03-16.03.03:187][130]LogStats:             FDebug::EnsureFailed - 16.566 s
+[2018.11.03-16.03.03:229][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonJump_End.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:242][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonJump_Loop.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:259][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonJump_Start.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:270][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonRun.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:279][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPersonWalk.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:290][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPerson_AnimBP.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:303][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:315][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Animations/ThirdPerson_Jump.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:330][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:344][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:360][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:377][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:395][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:420][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:442][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:470][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:508][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/M_UE4Man_Body.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:572][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/M_UE4Man_Body_Inst.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:646][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:732][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Materials/M_UE4Man_ChestLogo_Inst.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:811][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Mesh/SK_Mannequin.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:892][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.03:961][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.04:021][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Textures/UE4Man_Logo_N.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.04:070][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Textures/UE4_LOGO_CARD.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.04:114][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.03.04:163][130]LogAssetTools: Warning: Failed to import 'C:\Users\mg-lenovo\Documents\GitHub\VogsAmIFree\Content\Mannequin/Character/Textures/UE4_Mannequin__normals.uasset'. Unknown extension 'uasset'.
+[2018.11.03-16.05.05:427][105]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/FirstPersonExampleMap_Auto232950B8A4CBD5D4A609B74A8F9539A15.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.11.03-16.05.05:448][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.348
+[2018.11.03-16.05.05:448][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.348
+[2018.11.03-16.05.05:453][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mege/EnemyAI/EnemyAICharacter] ([1] browsable assets)...
+[2018.11.03-16.05.05:453][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/mege/EnemyAI/EnemyAICharacter]
+[2018.11.03-16.05.05:484][105]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter_Auto2E943D60E4130355EB6326DADAAE668A2.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/mege/EnemyAI/EnemyAICharacter_Auto2.uasset'
+[2018.11.03-16.05.05:488][105]LogFileHelpers: Auto-saving content packages took 0.037
+[2018.11.03-16.05.49:515][237]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Mannequin/Animations/ThirdPerson_AnimBP.
+[2018.11.03-16.06.14:027][411]BlueprintLog: New page: Compile EnemyAICharacter
+[2018.11.03-16.06.16:624][534]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-16.06.35:437][563]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-16.06.53:961][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-16.06.57:344][792]LogRenderer: Reallocating scene render targets to support 924x540 Format 10 NumSamples 1 (Frame:9523).
+[2018.11.03-16.06.57:446][792]LogRenderer: Reallocating scene render targets to support 1004x540 Format 10 NumSamples 1 (Frame:9525).
+[2018.11.03-16.07.27:010][508]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-16.07.27:081][508]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacterE994A7094A1F378779CF8AB9F3F4BF23.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.03-16.07.27:147][510]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/mege/EnemyAI/EnemyAICharacter.
+[2018.11.03-16.07.29:866][668]BlueprintLog: New page: Compile EnemyAICharacter
+[2018.11.03-16.07.38:686][ 19]LogSlate: Window 'EnemyAICharacter' being destroyed
+[2018.11.03-16.08.02:017][662]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/mege/EnemyAI/EnemyAIBlackboard.EnemyAIBlackboard
+[2018.11.03-16.08.03:890][769]LogSlate: Window 'EnemyAIBlackboard' being destroyed
+[2018.11.03-16.08.05:423][815]LogSlate: Window 'EnemyAIBlackboard' being destroyed
+[2018.11.03-16.08.15:732][418]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/mege/EnemyAI/EnemyAIBT.EnemyAIBT
+[2018.11.03-16.08.35:433][351]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAIController.EnemyAIController
+[2018.11.03-16.08.43:880][826]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAICharacter.EnemyAICharacter
+[2018.11.03-16.09.04:207][903]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-16.09.12:166][229]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/FirstPersonExampleMap1EDEB10640F7EEB280ADDFB50B0CF448.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.11.03-16.09.12:221][229]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.561
+[2018.11.03-16.09.12:325][229]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter18846DFA4CBD20D329E0EF9D5C096F57.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.03-16.09.13:205][281]BlueprintLog: New page: Compile EnemyAICharacter
+[2018.11.03-16.09.32:224][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-16.09.36:095][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-16.10.01:062][965]BlueprintLog: New page: Compile EnemyAIController
+[2018.11.03-16.10.01:892][999]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIControllerD31169AE42052BAEAF8B22A9EBC01C5D.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIController.uasset'
+[2018.11.03-16.10.02:864][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.03-16.10.54:669][305]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/FirstPersonExampleMap65EE961E4FEF9DD9B8DB0296BC77C137.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.11.03-16.10.54:715][305]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.553
+[2018.11.03-16.11.11:571][257]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-16.11.44:679][644]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBlackboardD0F13B924093DB1737D417A5E160E190.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBlackboard.uasset'
+[2018.11.03-16.12.01:775][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-16.12.10:918][822]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.03-16.12.50:211][996]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.03-16.14.26:080][460]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2018.11.03-16.14.26:480][460]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/mege/EnemyAI/BTService_BlueprintBase_New.
+[2018.11.03-16.14.49:292][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAIBT" FILE="../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBT.uasset" SILENT=true
+[2018.11.03-16.14.49:314][905]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAIBTCF930D5341983152ED98BFB81D022605.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAIBT.uasset'
+[2018.11.03-16.14.49:349][905]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/BTService_BlueprintBase_NewEDFE67AA478F00AAEBC916AA357C7E21.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/BTService_BlueprintBase_New.uasset'
+[2018.11.03-16.14.49:438][910]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/mege/EnemyAI/BTService_BlueprintBase_New.
+[2018.11.03-16.15.06:244][899]LogMetaData: Removing '/Game/mege/EnemyAI/BTS_VisionCheck.SKEL_BTS_VisionCheck_C' ref from Metadata '/Game/mege/EnemyAI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.11.03-16.15.06:244][899]LogMetaData: Removing '/Game/mege/EnemyAI/BTS_VisionCheck.BTS_VisionCheck_C' ref from Metadata '/Game/mege/EnemyAI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.11.03-16.15.06:290][899]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/BTS_VisionCheckF5E710EC4CBDAF08145323A18239B314.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/BTS_VisionCheck.uasset'
+[2018.11.03-16.15.06:679][903]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/mege/EnemyAI/BTS_VisionCheck.
+[2018.11.03-16.21.11:039][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.045
+[2018.11.03-16.21.11:042][741]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mege/EnemyAI/BTS_VisionCheck] ([1] browsable assets)...
+[2018.11.03-16.21.11:042][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/mege/EnemyAI/BTS_VisionCheck]
+[2018.11.03-16.21.11:074][741]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/BTS_VisionCheck_Auto3AC545D8D40E285AC103E3CB3C58C915D.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/mege/EnemyAI/BTS_VisionCheck_Auto3.uasset'
+[2018.11.03-16.21.11:080][741]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.11.03-16.22.34:113][582]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAICharacter.EnemyAICharacter
+[2018.11.03-16.24.41:988][899]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.03-16.25.00:513][978]LogSavePackage: Moving '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter9C8C1AD04A744B432A25A9A0FB7994BD.tmp' to '../../../../../../Users/mg-lenovo/Documents/GitHub/TeamCarry/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+>>>>>>> master
