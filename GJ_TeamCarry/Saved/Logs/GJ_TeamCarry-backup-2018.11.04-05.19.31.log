@@ -1,0 +1,516 @@
+﻿Log file open, 11/04/18 05:11:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GJ_TeamCarry
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.649236
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.438s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.04-02.11.15:695][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-02.11.15:695][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.04-02.11.15:745][  0]LogHAL: Display: Platform has ~ 16 GB [17136209920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.04-02.11.15:745][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.04-02.11.15:745][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.04-02.11.15:787][  0]LogInit: Computer: DESKTOP-KQUM2EF
+[2018.11.04-02.11.15:787][  0]LogInit: User: Mahir
+[2018.11.04-02.11.15:787][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.04-02.11.15:787][  0]LogInit: High frequency timer resolution =2.742184 MHz
+[2018.11.04-02.11.15:788][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.04-02.11.15:788][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-02.11.15:788][  0]LogMemory: Process Physical Memory: 101.43 MB used, 101.43 MB peak
+[2018.11.04-02.11.15:788][  0]LogMemory: Process Virtual Memory: 93.43 MB used, 93.43 MB peak
+[2018.11.04-02.11.15:788][  0]LogMemory: Physical Memory: 8029.72 MB used,  8312.64 MB free, 16342.36 MB total
+[2018.11.04-02.11.15:788][  0]LogMemory: Virtual Memory: 4647.37 MB used,  8312.64 MB free, 134217728.00 MB total
+[2018.11.04-02.11.16:147][  0]LogInit: Using OS detected language (tr-TR).
+[2018.11.04-02.11.16:147][  0]LogInit: Using OS detected locale (tr-TR).
+[2018.11.04-02.11.16:211][  0]LogTextLocalizationManager: No localization for 'tr-TR' exists, so 'en' will be used for the language.
+[2018.11.04-02.11.17:265][  0]LogStreaming: Display: Took  1.118s to InitEngineTextLocalization.
+[2018.11.04-02.11.17:265][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.04-02.11.17:716][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.04-02.11.17:716][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.04-02.11.21:701][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-02.11.21:701][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.04-02.11.22:074][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.04-02.11.22:074][  0]LogD3D11RHI:       8081/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.04-02.11.22:077][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.04-02.11.22:077][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.04-02.11.22:077][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.04-02.11.22:083][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.04-02.11.22:083][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.04-02.11.22:083][  0]LogWindows: EnumDisplayDevices:
+[2018.11.04-02.11.22:083][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.04-02.11.22:084][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.04-02.11.22:085][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.04-02.11.22:085][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.04-02.11.22:085][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.04-02.11.22:085][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.04-02.11.22:085][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.11.04-02.11.22:085][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.11.04-02.11.22:085][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.11.04-02.11.22:191][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.04-02.11.22:275][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.04-02.11.22:320][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Intermediate/Shaders/WorkingDirectory/15764/).
+[2018.11.04-02.11.22:320][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mahir/AppData/Local/Temp/UnrealShaderWorkingDir/B459655A4063EDA1548C758929716295/'.
+[2018.11.04-02.11.23:555][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.04-02.11.23:580][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.04-02.11.23:598][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.04-02.11.23:627][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.04-02.11.23:697][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.04-02.11.23:738][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.04-02.11.23:757][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.04-02.11.23:783][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.04-02.11.23:793][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:927][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-02.11.23:932][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.04-02.11.24:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-02.11.24:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-02.11.24:059][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-02.11.24:059][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-02.11.24:086][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.04-02.11.24:112][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.04-02.11.24:128][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.04-02.11.24:155][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.04-02.11.24:179][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.04-02.11.24:179][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.04-02.11.24:430][  0]LogXGEController: Cleaning working directory: C:/Users/Mahir/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.04-02.11.24:430][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.04-02.11.24:430][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.04-02.11.24:430][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.04-02.11.26:651][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.04-02.11.27:672][  0]LogDerivedDataCache: Loaded boot cache 1.02s 71MB C:/Users/Mahir/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-02.11.27:673][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mahir/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.04-02.11.27:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.04-02.11.27:673][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.04-02.11.27:673][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.04-02.11.27:673][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.04-02.11.27:744][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.04-02.11.27:759][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mahir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.04-02.11.27:759][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.04-02.11.27:759][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.04-02.11.27:776][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.04-02.11.27:777][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.04-02.11.27:862][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.04-02.11.28:721][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.11.04-02.11.29:144][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-02.11.30:554][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.04-02.11.30:669][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.04-02.11.30:669][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.04-02.11.30:670][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.04-02.11.30:670][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.04-02.11.30:845][  0]LogNetVersion: GJ_TeamCarry 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3632271904)
+[2018.11.04-02.11.33:506][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.098118 seconds
+[2018.11.04-02.11.33:513][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.04-02.11.33:513][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.04-02.11.33:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.04-02.11.51:343][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.04-02.11.51:358][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.04-02.11.51:953][  0]SourceControl: Source control is disabled
+[2018.11.04-02.11.51:953][  0]SourceControl: Source control is disabled
+[2018.11.04-02.11.51:984][  0]SourceControl: Source control is disabled
+[2018.11.04-02.11.51:998][  0]SourceControl: Source control is disabled
+[2018.11.04-02.11.52:773][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.04-02.11.52:897][  0]LogOcInput: OculusInput pre-init called
+[2018.11.04-02.11.53:115][  0]LogEngine: Initializing Engine...
+[2018.11.04-02.11.53:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-02.11.53:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-02.11.53:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-02.11.53:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-02.11.53:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-02.11.53:589][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.04-02.11.53:657][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.04-02.11.53:676][  0]LogInit: XAudio2 using 'Kulaklıklar (3- SteelSeries Siberia 150)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-02.11.53:719][  0]LogInit: FAudioDevice initialized.
+[2018.11.04-02.11.53:719][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.04-02.11.54:126][  0]LogDerivedDataCache: Saved boot cache 0.41s 71MB C:/Users/Mahir/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-02.11.54:130][  0]LogInit: Texture streaming: Enabled
+[2018.11.04-02.11.54:333][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.04-02.11.54:345][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={5DDEDDE8-4D1F-8A22-7E57-A48127F849C5}
+[2018.11.04-02.11.54:391][  0]LogInit: Transaction tracking system initialized
+[2018.11.04-02.11.54:471][  0]BlueprintLog: New page: Editor Load
+[2018.11.04-02.11.54:894][  0]LocalizationService: Localization service is disabled
+[2018.11.04-02.11.58:141][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.04-02.11.58:141][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.04-02.11.58:141][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.04-02.11.58:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-02.11.58:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-02.11.58:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-02.11.58:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-02.11.58:909][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/' took 0.03s
+[2018.11.04-02.11.59:756][  0]SourceControl: Source control is disabled
+[2018.11.04-02.11.59:756][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.04-02.11.59:757][  0]LightingResults: New page: Lighting Build
+[2018.11.04-02.11.59:760][  0]MapCheck: New page: Map Check
+[2018.11.04-02.11.59:760][  0]LightingResults: New page: Lighting Build
+[2018.11.04-02.12.12:923][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.04-02.12.13:049][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.04-02.12.13:082][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.04-02.12.13:239][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156,81ms to complete.
+[2018.11.04-02.12.13:239][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 13.483
+[2018.11.04-02.12.13:490][  0]LogCollectionManager: Loaded 0 collections in 0.002041 seconds
+[2018.11.04-02.12.13:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Collections/' took 0.01s
+[2018.11.04-02.12.13:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Developers/Mahir/Collections/' took 0.01s
+[2018.11.04-02.12.13:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Collections/' took 0.01s
+[2018.11.04-02.12.13:534][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.04-02.12.13:543][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2572 classes and 603 folders.
+[2018.11.04-02.12.13:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.04-02.12.15:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.04-02.12.15:103][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-02.12.15:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-02.12.15:118][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-02.12.15:127][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-02.12.15:134][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.04-02.12.15:301][  0]LogSlate: Took 0.028434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.04-02.12.15:324][  0]LogSlate: Took 0.020063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.04-02.12.15:344][  0]LogSlate: Took 0.019385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.04-02.12.15:626][  0]LogRenderer: Reallocating scene render targets to support 748x964 Format 10 NumSamples 1 (Frame:1).
+[2018.11.04-02.12.15:814][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.04-02.12.15:814][  0]LogLoad: (Engine Initialization) Total time: 96.42 seconds
+[2018.11.04-02.12.15:814][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.04-02.12.15:860][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.04-02.12.15:946][  0]LogSlate: Took 0.041373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-02.12.15:986][  1]LogAssetRegistry: Asset discovery search completed in 47.2872 seconds
+[2018.11.04-02.12.15:988][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.04-02.12.15:988][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.11.04-02.16.25:243][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-02.16.47:835][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-02.16.47:965][344]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-02.16.47:974][344]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Peasant/Mehes/peas_02.peas_02
+[2018.11.04-02.16.47:993][344]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.04-02.16.48:630][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.04-02.16.48:645][344]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.11.04-02.16.48:922][344]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.04-02.16.49:570][344]LogSlate: Took 0.029820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.04-02.16.49:628][344]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.11.04-02.16.49:655][344]LogRenderer: Reallocating scene render targets to support 840x964 Format 10 NumSamples 1 (Frame:1).
+[2018.11.04-02.16.52:954][461]LogRenderer: Reallocating scene render targets to support 876x964 Format 10 NumSamples 1 (Frame:130).
+[2018.11.04-02.17.01:242][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-02.17.29:265][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peasant/Meshes/peas_02_Skeleton" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/peas_02_Skeleton.uasset" SILENT=true
+[2018.11.04-02.17.29:282][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_02_Skeleton6FF26F1042D04988ED175191D2A7B817.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/peas_02_Skeleton.uasset'
+[2018.11.04-02.17.29:337][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peasant/Meshes/M_Peasant" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/M_Peasant.uasset" SILENT=true
+[2018.11.04-02.17.29:384][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/M_Peasant3222EADB469AB5319C6BD7AAF7F3AC25.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/M_Peasant.uasset'
+[2018.11.04-02.17.29:436][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_02_PhysicsAsset9AE0A3514151650C33F10391012785D6.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/peas_02_PhysicsAsset.uasset'
+[2018.11.04-02.17.29:457][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peasant/Meshes/peas_02" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/peas_02.uasset" SILENT=true
+[2018.11.04-02.17.29:523][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_0295F9C32A42E857D167B577BB36EC1ADD.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Peasant/Meshes/peas_02.uasset'
+[2018.11.04-02.17.29:934][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/Enemy_Anims" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/Enemy_Anims.uasset" SILENT=true
+[2018.11.04-02.17.30:245][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Enemy_Anims722561C34B3818EB6F58D9A126C84F28.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/Enemy_Anims.uasset'
+[2018.11.04-02.17.30:277][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonIdle" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonIdle.uasset" SILENT=true
+[2018.11.04-02.17.30:317][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonIdleC193DA28441F462B15D744AE7104BDB4.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonIdle.uasset'
+[2018.11.04-02.17.30:336][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonJump_Loop" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Loop.uasset" SILENT=true
+[2018.11.04-02.17.30:374][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonJump_LoopAB39DF2C4214596DFE957B8D7A2C3B94.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Loop.uasset'
+[2018.11.04-02.17.30:433][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonJump_StartFABE651B4FCE435D0EDC3592E74B96E2.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Start.uasset'
+[2018.11.04-02.17.30:452][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonRun" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonRun.uasset" SILENT=true
+[2018.11.04-02.17.30:491][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonRunC84376AD42A17E43E639E6B1F267029B.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonRun.uasset'
+[2018.11.04-02.17.30:511][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonWalk" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonWalk.uasset" SILENT=true
+[2018.11.04-02.17.30:551][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonWalk9EE078EF418899DC01193FB6AF235F84.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonWalk.uasset'
+[2018.11.04-02.17.30:610][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPerson_IdleRun_2D3F3AD69A4BC3B1BC3DB35EA97D64DDC3.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_IdleRun_2D.uasset'
+[2018.11.04-02.17.30:627][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPerson_Jump" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_Jump.uasset" SILENT=true
+[2018.11.04-02.17.30:667][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPerson_JumpB4017C84418D20B01B14A581BF0A2638.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_Jump.uasset'
+[2018.11.04-02.17.30:694][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAICharacter" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset" SILENT=true
+[2018.11.04-02.17.30:747][624]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter93037087419E7DC35405388BB7A41075.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.04-02.17.50:615][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_02_SkeletonA2E27E7D4F159DC4228ACF89250C1183.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Meshes/peas_02_Skeleton.uasset'
+[2018.11.04-02.17.50:765][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peasant_M_Peasant_BaseColor16A3F1FB4812991EC4AC778CF302D6EF.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Textures/peasant_M_Peasant_BaseColor.uasset'
+[2018.11.04-02.17.50:938][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peasant_M_Peasant_NormalBC467241488CCCBBE69590900CDE990D.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Textures/peasant_M_Peasant_Normal.uasset'
+[2018.11.04-02.17.50:984][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peasant_M_Peasant_OcclusionRoughC7F394B448E311883CBAA8A4D31A396D.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Textures/peasant_M_Peasant_OcclusionRoughnessMetallic.uasset'
+[2018.11.04-02.17.51:027][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/M_Peasant974093834C08FB6919030799C13C15F7.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Meshes/M_Peasant.uasset'
+[2018.11.04-02.17.51:079][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_02_PhysicsAsset2C6BC7074BB75886CB77C4AA42F9DC67.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Meshes/peas_02_PhysicsAsset.uasset'
+[2018.11.04-02.17.51:162][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/peas_0249B60131436FE2F399FD1394D362C094.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/All_Elements/Peasant/Meshes/peas_02.uasset'
+[2018.11.04-02.17.51:675][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/Enemy_Anims" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/Enemy_Anims.uasset" SILENT=true
+[2018.11.04-02.17.51:752][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Enemy_Anims740136474A62839DF3332CB7B6F75346.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/Enemy_Anims.uasset'
+[2018.11.04-02.17.51:762][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonIdle" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonIdle.uasset" SILENT=true
+[2018.11.04-02.17.51:789][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonIdle34BC4D924F4CD010D4DD13A8BB338151.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonIdle.uasset'
+[2018.11.04-02.17.51:796][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonJump_Loop" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Loop.uasset" SILENT=true
+[2018.11.04-02.17.51:823][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonJump_Loop4DE474A0491115D26E7EF7ADA7B72718.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Loop.uasset'
+[2018.11.04-02.17.51:856][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonJump_StartA91297694A8AA95091578EA769754D89.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonJump_Start.uasset'
+[2018.11.04-02.17.51:863][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonRun" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonRun.uasset" SILENT=true
+[2018.11.04-02.17.51:891][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonRun2256347E47F6FD53D951D6A5AB9A0276.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonRun.uasset'
+[2018.11.04-02.17.51:897][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPersonWalk" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonWalk.uasset" SILENT=true
+[2018.11.04-02.17.51:924][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPersonWalkECD33C40409279DDFBBA4CA3BFE83107.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPersonWalk.uasset'
+[2018.11.04-02.17.51:955][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPerson_IdleRun_2D0A2D72C7429628F3C7F041A2F27D1233.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_IdleRun_2D.uasset'
+[2018.11.04-02.17.51:962][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_Anim/ThirdPerson_Jump" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_Jump.uasset" SILENT=true
+[2018.11.04-02.17.51:988][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/ThirdPerson_Jump5E8998744DB970C44DDD9787958779B7.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Enemy_Anim/ThirdPerson_Jump.uasset'
+[2018.11.04-02.17.52:006][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAICharacter" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset" SILENT=true
+[2018.11.04-02.17.52:052][799]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacterED30F766459DAC661EE42CB28FC3F18C.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.04-02.18.31:395][305]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Mahir\Desktop\Just A Suffer\Weapon\Weapon_Material_Normal.png)
+[2018.11.04-02.18.32:275][305]LogTexture: Display: Building textures: Weapon_Material_Normal (BC5, 2048X2048)
+[2018.11.04-02.18.32:633][305]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Mahir\Desktop\Just A Suffer\Weapon\Weapon_Material_OcclusionRoughnessMetallic.png)
+[2018.11.04-02.18.32:837][305]LogTexture: Display: Building textures: Weapon_Material_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.11.04-02.18.33:830][305]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Mahir\Desktop\Just A Suffer\Weapon\Weapon_Material_BaseColor.png)
+[2018.11.04-02.18.33:980][305]LogTexture: Display: Building textures: Weapon_Material_BaseColor (AutoDXT, 2048X2048)
+[2018.11.04-02.18.39:919][472]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Mahir\Desktop\Just A Suffer\Weapon\Weapon.fbx)
+[2018.11.04-02.18.39:935][472]LogFbx: Loading FBX Scene from C:\Users\Mahir\Desktop\Just A Suffer\Weapon\Weapon.fbx
+[2018.11.04-02.18.39:961][472]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.04-02.18.42:716][472]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.04-02.18.42:820][472]LogFbx: Warning: Triangulating static mesh Plane
+[2018.11.04-02.18.43:868][472]LogStaticMesh: Building static mesh Weapon...
+[2018.11.04-02.18.44:068][472]LogStaticMesh: Built static mesh [0.26s] /Game/All_Elements/Weapon/Weapon.Weapon
+[2018.11.04-02.18.44:249][472]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.11.04-02.18.44:551][473]LogD3D11RHI: Error: D3DDevice failed CreateBuffer VB with ByteWidth=4194304, BindFlags=0x89 Usage=0, CPUAccess=0x0, MiscFlags=0x0
+[2018.11.04-02.18.44:552][473]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11VertexBuffer.cpp:83 
+ with error E_OUTOFMEMORY
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     30 = 32768 KB (2D 4096x4096 PF_ShadowDepth) PreShadowCacheDepthZ
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     28 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     63 = 8192 KB (2D 2048x2048 PF_ShadowDepth) ShadowDepthAtlas unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     81 = 8192 KB (3D 256x128x32 PF_FloatRGBA RT) AtmosphereDeltaJ
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     80 = 8192 KB (3D 256x128x32 PF_FloatRGBA RT) AtmosphereDeltaSM
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     79 = 8192 KB (3D 256x128x32 PF_FloatRGBA RT) AtmosphereDeltaSR
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     78 = 8192 KB (3D 256x128x32 PF_FloatRGBA RT) AtmosphereInscatter
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     29 = 6598 KB (2D 876x964 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     35 = 6598 KB (2D 876x964 PF_DepthStencil 4xMSAA) SelectionDepthStencil unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     60 = 6598 KB (2D 876x964 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     50 = 6598 KB (2D 876x964 PF_FloatRGBA RT UAV) LightAccumulation
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     82 = 6598 KB (2D 876x964 PF_FloatRGBA RT VRam) TemporalAA VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     33 = 6598 KB (2D 876x964 PF_FloatRGBA RT) BokehDOFRecombine unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     74 = 6598 KB (2D 876x964 PF_FloatRGBA RT) ScreenSpaceReflections unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     27 = 6598 KB (2D 876x964 PF_FloatRGBA RT) SeparateTranslucency unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     53 = 6598 KB (2D 876x964 PF_FloatRGBA RT) SSRTemporalAA
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     25 = 6598 KB (2D 876x964 PF_FloatRGBA RT) SSRTemporalAA
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     83 = 6598 KB (2D 876x964 PF_FloatRGBA RT) TemporalAA
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     42 = 6598 KB (2D 876x964 PF_FloatRGBA RT) TemporalAA
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     37 = 6598 KB (2D 876x964 PF_FloatRGBA RT) TemporalAA
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     64 = 3299 KB (2D 876x964 PF_A2B10G10R10 RT) GBufferA unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     66 = 3299 KB (2D 876x964 PF_B8G8R8A8 RT sRGB) GBufferC unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     73 = 3299 KB (2D 876x964 PF_B8G8R8A8 RT VRam) ScreenShadowMaskTexture unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     65 = 3299 KB (2D 876x964 PF_B8G8R8A8 RT VRam) Tonemap unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     67 = 3299 KB (2D 876x964 PF_B8G8R8A8 RT) GBufferD unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     68 = 3299 KB (2D 876x964 PF_B8G8R8A8 RT) GBufferE unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     38 = 3299 KB (2D 876x964 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     70 = 3299 KB (2D 876x964 PF_G16R16 RT) Velocity unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     43 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     46 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     48 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     45 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     47 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     49 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     34 = 2048 KB (Cube[2] 128 PF_FloatRGBA) ReflectionEnvs
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     40 = 1650 KB (2D 438x482 PF_DepthStencil) SmallDepthZ
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     71 = 1650 KB (2D 438x482 PF_FloatRGBA RT VRam) AmbientOcclusionSetup unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     51 = 1650 KB (2D 876x482 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     24 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     23 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     72 = 825 KB (2D 438x482 PF_B8G8R8A8 RT VRam) AmbientOcclusion unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     84 = 825 KB (2D 438x482 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     36 = 825 KB (2D 438x482 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     41 = 825 KB (2D 876x964 PF_G8 RT UAV) ScreenSpaceAO
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     69 = 683 KB (2D 512x512 PF_R16F RT VRam) HZB unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     32 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     85 = 207 KB (2D 219x241 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     55 = 207 KB (2D 219x241 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     75 = 128 KB (2D 256x64 PF_FloatRGBA RT) AtmosphereTransmittance
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     54 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     31 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     10 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     22 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     21 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     86 = 52 KB (2D 110x121 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     58 = 52 KB (2D 110x121 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     39 = 32 KB (2D 64x64 PF_A16B16G16R16) SSProfiles
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     17 = 32 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     16 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     18 = 16 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     14 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     26 = 14 KB (2D 16x112 PF_FloatRGBA RT UAV VRam) Histogram unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     87 = 14 KB (2D 55x61 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:433][473]LogConsoleResponse:     59 = 14 KB (2D 55x61 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     77 = 8 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereDeltaE
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     76 = 8 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereIrradiance
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     15 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     88 = 4 KB (2D 28x31 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     61 = 4 KB (2D 28x31 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     89 = 1 KB (2D 14x16 PF_FloatRGB RT VRam) BloomBlurX unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     62 = 1 KB (2D 14x16 PF_FloatRGB RT) BloomBlurY unused(2)
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     19 = 1 KB (2D 16x2 PF_A32B32G32R32F RT VRam) HistogramReduce unused(2) VRamInKB(Start/Size):<NONE>
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     52 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     56 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     57 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     44 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     11 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2018.11.04-02.19.23:434][473]LogConsoleResponse:     20 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2018.11.04-02.19.23:434][473]LogConsoleResponse: 
+[2018.11.04-02.19.23:434][473]LogConsoleResponse: Pool: 141/233 MB (referenced/allocated)
+[2018.11.04-02.19.23:434][473]Cmd: rhi.DumpMemory
+[2018.11.04-02.19.23:556][473]RHI resource memory (not tracked by our allocator)
+[2018.11.04-02.19.23:556][473]         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:556][473]        46399488  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:556][473]         2240208  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:556][473]         8698015  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:556][473]       138063600  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:557][473]        64028580  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:557][473]       878230160  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:557][473]       198776756  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:557][473]         8494436  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2018.11.04-02.19.23:557][473]1284.751MB total
+[2018.11.04-02.19.23:559][473]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.11.04-02.19.23:585][473]Log file closed, 11/04/18 05:19:23
