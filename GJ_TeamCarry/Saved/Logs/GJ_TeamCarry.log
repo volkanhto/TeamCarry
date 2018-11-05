@@ -2623,3 +2623,846 @@ LogInit: Object subsystem initialized
 [2018.11.05-15.34.24:191][338]LogFileHelpers: Saving map 'Level_1' took 0.941
 [2018.11.05-15.34.24:211][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAICharacter" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset" SILENT=true
 [2018.11.05-15.34.24:281][338]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter9B62ECE744BFC8107F5A1E8F58709264.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.05-15.34.41:543][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.05-15.38.06:760][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.38.13:331][679]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAICharacter.EnemyAICharacter
+[2018.11.05-15.38.31:137][518]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Volkan/MyCharacter.MyCharacter
+[2018.11.05-15.38.37:013][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.39.15:702][134]BlueprintLog: New page: Compile MyCharacter
+[2018.11.05-15.40.49:158][609]BlueprintLog: New page: Compile MyCharacter
+[2018.11.05-15.40.50:571][666]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-15.40.50:614][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.40.50:614][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-15.40.50:614][666]PIE: New page: PIE session: Level_1 (5 Kas 2018 20:40:50)
+[2018.11.05-15.40.50:614][666]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-15.40.50:640][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025479s)
+[2018.11.05-15.40.50:640][666]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-15.40.50:640][666]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2018.11.05-15.40.50:641][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.026288s)
+[2018.11.05-15.40.50:681][666]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-15.40.50:778][666]LogInit: FAudioDevice initialized.
+[2018.11.05-15.40.50:807][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.40.50:872][666]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-15.40.50:894][666]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-18.40.50
+[2018.11.05-15.40.50:896][666]LogWorld: Bringing up level for play took: 0.021988
+[2018.11.05-15.40.50:916][666]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 0,892
+[2018.11.05-15.40.50:917][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.40.51:093][667]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-15.40.59:654][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.40.59:655][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.40.59:686][111]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-15.40.59:751][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-15.40.59:751][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.40.59:817][112]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2018.11.05-15.41.12:274][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.41.15:188][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.41.21:658][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.41.24:025][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.41.24:091][556]BlueprintLog: New page: Compile MyCharacter
+[2018.11.05-15.41.30:876][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.41.30:943][942]BlueprintLog: New page: Compile MyCharacter
+[2018.11.05-15.41.31:615][960]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-15.41.31:648][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.41.31:648][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-15.41.31:648][960]PIE: New page: PIE session: Level_1 (5 Kas 2018 20:41:31)
+[2018.11.05-15.41.31:648][960]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-15.41.31:676][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027904s)
+[2018.11.05-15.41.31:677][960]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-15.41.31:677][960]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2018.11.05-15.41.31:677][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.028862s)
+[2018.11.05-15.41.31:719][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-15.41.31:819][960]LogInit: FAudioDevice initialized.
+[2018.11.05-15.41.31:849][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.41.31:904][960]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-15.41.31:923][960]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-18.41.31
+[2018.11.05-15.41.31:926][960]LogWorld: Bringing up level for play took: 0.021363
+[2018.11.05-15.41.31:943][960]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 -0,081
+[2018.11.05-15.41.31:944][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.41.32:133][961]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-15.41.39:152][333]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.41.39:152][333]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-15.41.45:889][723]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-15.41.45:889][723]LogBlueprintUserMessages: [MyCharacter_C_0] 74.0
+[2018.11.05-15.41.46:741][774]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.41.47:293][802]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-15.41.47:293][802]LogBlueprintUserMessages: [MyCharacter_C_0] 76.0
+[2018.11.05-15.41.48:775][884]LogBlueprintUserMessages: [MyCharacter_C_0] 60
+[2018.11.05-15.41.48:775][884]LogBlueprintUserMessages: [MyCharacter_C_0] 78.0
+[2018.11.05-15.41.51:183][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.41.51:184][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.41.51:218][ 21]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-15.41.51:291][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-15.41.51:291][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.41.51:349][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2018.11.05-15.42.02:977][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.42.48:656][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Volkan/MyCharacter" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Volkan/MyCharacter.uasset" SILENT=true
+[2018.11.05-15.42.48:838][395]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/MyCharacter8BA286C04C407B414B62F2B152815F77.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Volkan/MyCharacter.uasset'
+[2018.11.05-15.43.34:175][102]BlueprintLog: New page: Compile MyCharacter
+[2018.11.05-15.44.04:467][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.44.06:543][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.44.06:943][652]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-15.44.06:976][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.06:977][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-15.44.06:977][652]PIE: New page: PIE session: Level_1 (5 Kas 2018 20:44:06)
+[2018.11.05-15.44.06:977][652]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-15.44.07:004][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027261s)
+[2018.11.05-15.44.07:004][652]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-15.44.07:004][652]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.11.05-15.44.07:004][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.028152s)
+[2018.11.05-15.44.07:048][652]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-15.44.07:149][652]LogInit: FAudioDevice initialized.
+[2018.11.05-15.44.07:184][652]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-15.44.07:200][652]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-18.44.07
+[2018.11.05-15.44.07:202][652]LogWorld: Bringing up level for play took: 0.018339
+[2018.11.05-15.44.07:217][652]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 1,193
+[2018.11.05-15.44.07:217][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.11:506][845]Cmd: LevelEditor.ToggleImmersive
+[2018.11.05-15.44.11:710][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-15.44.14:668][997]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.44.14:668][997]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-15.44.14:982][ 14]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.44.15:771][ 61]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3425.372 Y=-76.817 Z=249.735] for [FPProjectile_C]
+[2018.11.05-15.44.16:287][ 92]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3350.039 Y=-220.505 Z=223.343] for [FPProjectile_C]
+[2018.11.05-15.44.17:322][154]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-15.44.17:322][154]LogBlueprintUserMessages: [MyCharacter_C_0] 74.0
+[2018.11.05-15.44.23:088][500]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-15.44.23:088][500]LogBlueprintUserMessages: [MyCharacter_C_0] 76.0
+[2018.11.05-15.44.23:805][543]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-15.44.26:171][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.26:171][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.44.26:251][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-15.44.26:251][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.26:283][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.44.26:325][685]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2018.11.05-15.44.30:797][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-15.44.32:597][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.44.36:855][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.44.40:330][302]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/mege/EnemyAI/EnemyAICharacter.EnemyAICharacter
+[2018.11.05-15.44.50:364][879]BlueprintLog: New page: Compile EnemyAICharacter
+[2018.11.05-15.44.51:885][950]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-15.44.51:919][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.51:920][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-15.44.51:920][950]PIE: New page: PIE session: Level_1 (5 Kas 2018 20:44:51)
+[2018.11.05-15.44.51:920][950]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-15.44.51:948][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027887s)
+[2018.11.05-15.44.51:949][950]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-15.44.51:949][950]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.11.05-15.44.51:949][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.028855s)
+[2018.11.05-15.44.51:995][950]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-15.44.52:096][950]LogInit: FAudioDevice initialized.
+[2018.11.05-15.44.52:124][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.44.52:182][950]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-15.44.52:201][950]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-18.44.52
+[2018.11.05-15.44.52:204][950]LogWorld: Bringing up level for play took: 0.021144
+[2018.11.05-15.44.52:224][950]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 0,199
+[2018.11.05-15.44.52:224][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.44.52:384][951]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-15.44.59:958][340]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.44.59:958][340]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-15.45.03:968][564]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-15.45.03:968][564]LogBlueprintUserMessages: [MyCharacter_C_0] 74.0
+[2018.11.05-15.45.09:649][900]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-15.45.09:649][900]LogBlueprintUserMessages: [MyCharacter_C_0] 76.0
+[2018.11.05-15.45.10:433][947]LogBlueprintUserMessages: [MyCharacter_C_0] 60
+[2018.11.05-15.45.10:433][947]LogBlueprintUserMessages: [MyCharacter_C_0] 78.0
+[2018.11.05-15.45.11:383][  4]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-15.45.12:204][ 53]LogBlueprintUserMessages: [MyCharacter_C_0] 50
+[2018.11.05-15.45.12:204][ 53]LogBlueprintUserMessages: [MyCharacter_C_0] 80.0
+[2018.11.05-15.45.12:205][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1289.616 Y=411.066 Z=-22.967] for [EnemyAICharacter_C]
+[2018.11.05-15.45.16:791][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.16:792][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.45.16:824][317]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-15.45.16:878][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-15.45.16:878][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.16:931][318]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2018.11.05-15.45.27:125][928]BlueprintLog: New page: Compile EnemyAICharacter
+[2018.11.05-15.45.33:183][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mege/EnemyAI/EnemyAICharacter" FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset" SILENT=true
+[2018.11.05-15.45.33:253][263]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/EnemyAICharacter7B64FEAA42E22589A61E8FB7953859F1.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/mege/EnemyAI/EnemyAICharacter.uasset'
+[2018.11.05-15.45.57:520][718]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-15.45.57:555][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.57:555][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-15.45.57:556][718]PIE: New page: PIE session: Level_1 (5 Kas 2018 20:45:57)
+[2018.11.05-15.45.57:556][718]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-15.45.57:582][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026569s)
+[2018.11.05-15.45.57:583][718]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-15.45.57:583][718]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.11.05-15.45.57:583][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.027542s)
+[2018.11.05-15.45.57:624][718]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-15.45.57:721][718]LogInit: FAudioDevice initialized.
+[2018.11.05-15.45.57:757][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.45.57:808][718]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-15.45.57:831][718]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-18.45.57
+[2018.11.05-15.45.57:835][718]LogWorld: Bringing up level for play took: 0.025513
+[2018.11.05-15.45.57:853][718]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 -0,172
+[2018.11.05-15.45.57:853][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.58:017][719]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-15.45.59:005][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.59:005][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-15.45.59:039][756]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-15.45.59:107][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-15.45.59:107][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-15.45.59:156][757]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2018.11.05-15.46.06:269][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.46.06:386][112]MapCheck: New page: Map Check
+[2018.11.05-15.46.06:454][112]Cmd: MAP REBUILD ALLVISIBLE
+[2018.11.05-15.46.06:455][112]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.11.05-15.46.07:138][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.11.05-15.46.07:146][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.11.05-15.46.07:152][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cave_WoodStruts_, compiling. 
+[2018.11.05-15.46.07:162][112]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.05-15.46.07:162][112]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-15.46.07:162][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_SubUV_11X11_Noise, compiling. 
+[2018.11.05-15.46.07:168][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_FlareRound, compiling. 
+[2018.11.05-15.46.07:173][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_HeatDistort, compiling. 
+[2018.11.05-15.46.07:179][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Spark_VelocityLerp, compiling. 
+[2018.11.05-15.46.07:186][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MAT_Body_inst, compiling. 
+[2018.11.05-15.46.09:873][112]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.05-15.46.09:873][112]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.05-15.46.09:873][112]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.05-15.46.09:873][112]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.05-15.46.09:873][112]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.05-15.46.09:874][112]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-15.46.09:874][112]TextureStreamingBuild: Display: Compiling optional shaders took 2.739 seconds.
+[2018.11.05-15.46.09:889][112]LogLevel: Display: Export Material TexCoord Scales took 0.015 seconds.
+[2018.11.05-15.46.10:094][112]TextureStreamingBuild: Display: Build Texture Streaming took 0.203 seconds.
+[2018.11.05-15.46.10:132][112]LightingResults: New page: Lighting Build - 5 Kas 2018 20:46:10
+[2018.11.05-15.46.10:144][112]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.05-15.46.10:150][112]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.05-15.46.10:150][112]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.05-15.46.10:151][112]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.05-15.46.10:151][112]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14916
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.05-15.46.14:768][112]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.05-15.46.14:932][112]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.11.05-15.46.14:933][112]MapCheck: New page: Level_1 - 5 Kas 2018 20:46:14
+[2018.11.05-15.46.14:933][112]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.11.05-15.46.14:934][112]MapCheck: Warning: peasant_2 Static mesh actor has NULL StaticMesh property 
+[2018.11.05-15.46.14:934][112]MapCheck: Warning: peasant_2 Static mesh actor peasant_2 has NULL StaticMesh property 
+[2018.11.05-15.46.14:934][112]MapCheck: Warning: peasant2 Static mesh actor has NULL StaticMesh property 
+[2018.11.05-15.46.14:934][112]MapCheck: Warning: peasant2 Static mesh actor peasant2 has NULL StaticMesh property 
+[2018.11.05-15.46.14:935][112]MapCheck: Warning: Siper_Consturct14 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.11.05-15.46.15:168][112]MapCheck: Map check complete: 1 Error(s), 5 Warning(s), took 236,162ms to complete.
+[2018.11.05-15.46.15:191][112]LogEditorBuildUtils: Build time 0:08
+[2018.11.05-15.46.22:559][131]Job is a success!
+[2018.11.05-15.46.23:128][132]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.170s
+[2018.11.05-15.46.23:128][132]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.11.05-15.46.23:129][132]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.5Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2018.11.05-15.46.23:129][132]LogVolumetricLightmapImport:      Bricks at Level
+[2018.11.05-15.46.23:129][132]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2018.11.05-15.46.23:129][132]LogVolumetricLightmapImport:          1: 7.4% covering 4.9% of volume
+[2018.11.05-15.46.23:129][132]LogVolumetricLightmapImport:          2: 90.2% covering 0.9% of volume
+[2018.11.05-15.46.23:366][132]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.11.05-15.46.23:366][132]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.11.05-15.46.23:366][132]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.11.05-15.46.23:387][132]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X128)
+[2018.11.05-15.46.23:412][132]Lightmass on DESKTOP-KQUM2EF: 6.18 sec total, 294 ms importing, 57 ms setup, 769 ms photons, 5.01 sec processing, 0 ms extra exporting [26/26 mappings]. Threads: 34.9 sec total, 5.01 sec processing.
+[2018.11.05-15.46.23:462][132]LogStaticLightingSystem: Illumination: 12.9 sec (183 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2018.11.05-15.46.23:462][132]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.11.05-15.46.23:462][132]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.11.05-15.46.23:775][132]DumpUnbuiltLightIteractions
+[2018.11.05-15.46.23:775][132]Lights with unbuilt interactions: 0
+[2018.11.05-15.46.23:775][132]
+[2018.11.05-15.46.23:775][132]Primitives with unbuilt interactions: 0
+[2018.11.05-15.46.23:830][133]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.05-15.46.23:830][133]MapCheck: New page: Level_1 - 5 Kas 2018 20:46:23
+[2018.11.05-15.46.23:831][133]MapCheck: Warning: peasant_2 Static mesh actor has NULL StaticMesh property 
+[2018.11.05-15.46.23:832][133]MapCheck: Warning: peasant_2 Static mesh actor peasant_2 has NULL StaticMesh property 
+[2018.11.05-15.46.23:832][133]MapCheck: Warning: peasant2 Static mesh actor has NULL StaticMesh property 
+[2018.11.05-15.46.23:832][133]MapCheck: Warning: peasant2 Static mesh actor peasant2 has NULL StaticMesh property 
+[2018.11.05-15.46.23:833][133]MapCheck: Warning: Siper_Consturct14 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.11.05-15.46.24:083][133]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 253,36ms to complete.
+[2018.11.05-15.46.35:871][166]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_1_Auto122807E534C7E8E77A27E21B0B43B049F.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/Backup/Lepricaun/Level_1_Auto1.umap'
+[2018.11.05-15.46.35:878][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Backup/Lepricaun/Level_1' took 0.645
+[2018.11.05-15.46.35:878][166]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.645
+[2018.11.05-15.46.35:883][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Backup/Lepricaun/Level_1_BuiltData] ([1] browsable assets)...
+[2018.11.05-15.46.35:883][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Backup/Lepricaun/Level_1_BuiltData]
+[2018.11.05-15.46.35:974][166]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_1_BuiltData_Auto19DE6E1B849D59C24DA18D6BB1DB3E254.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/Backup/Lepricaun/Level_1_BuiltData_Auto1.uasset'
+[2018.11.05-15.46.35:977][166]LogFileHelpers: Auto-saving content packages took 0.096
+[2018.11.05-15.54.02:765][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.54.10:309][ 53]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-15.54.10:875][ 53]LogAssetEditorManager: Opening Asset editor for World /Game/Backup/Lepricaun/Level_2.Level_2
+[2018.11.05-15.54.12:709][ 53]LogSlate: Window 'Save Content' being destroyed
+[2018.11.05-15.54.17:959][ 53]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_10F387DF24AF3D3FF11996B87874AFEA4.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_1.umap'
+[2018.11.05-15.54.18:019][ 53]LogFileHelpers: Saving map 'Level_1' took 5.299
+[2018.11.05-15.54.18:159][ 53]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_1_BuiltDataCD4D861C4D9446ACA546BF801CFD00BD.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_1_BuiltData.uasset'
+[2018.11.05-15.54.18:171][ 53]Cmd: MAP LOAD FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-15.54.18:171][ 53]LightingResults: New page: Lighting Build
+[2018.11.05-15.54.18:171][ 53]LoadErrors: New page: Loading map: Level_2.umap
+[2018.11.05-15.54.18:187][ 53]MapCheck: New page: Map Check
+[2018.11.05-15.54.18:187][ 53]LightingResults: New page: Lighting Build
+[2018.11.05-15.54.20:979][ 53]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-15.54.21:108][ 53]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-15.54.21:335][ 53]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 226,286ms to complete.
+[2018.11.05-15.54.21:337][ 53]LogFileHelpers: Loading map 'Level_2' took 3.169
+[2018.11.05-15.54.23:215][129]LogEditorViewport: Clicking on Actor (LMB): PlanarReflection (PlanarReflection)
+[2018.11.05-15.54.24:068][162]Cmd: DELETE
+[2018.11.05-15.54.24:068][162]Cmd: ACTOR DELETE
+[2018.11.05-15.54.24:103][162]LogEditorActor: Deleted Actor: PlanarReflection
+[2018.11.05-15.54.24:138][162]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2018.11.05-15.54.31:137][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.54.43:557][305]LogSlate: Window 'Details' being destroyed
+[2018.11.05-15.54.49:491][654]LogSlate: Window 'Details' being destroyed
+[2018.11.05-15.54.52:464][831]LogSlate: Window 'Details' being destroyed
+[2018.11.05-15.55.05:909][623]LogEditorViewport: Clicking on Actor (LMB): BP_fire_C (BP_fire)
+[2018.11.05-15.55.07:263][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.55.12:163][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.55.23:435][651]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.05-15.55.29:396][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.55.33:496][217]LogEditorActor: Deleted Actor: SkyLight
+[2018.11.05-15.55.33:528][217]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.11.05-15.55.48:572][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.56.07:421][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-15.56.08:054][ 95]MapCheck: New page: Map Check
+[2018.11.05-15.56.08:079][ 95]Cmd: MAP REBUILD ALLVISIBLE
+[2018.11.05-15.56.08:080][ 95]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.11.05-15.56.10:866][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.11.05-15.56.10:872][ 95]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-15.56.10:872][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Water_Lake, compiling. 
+[2018.11.05-15.56.10:880][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.11.05-15.56.10:886][ 95]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.05-15.56.10:886][ 95]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-15.56.10:886][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_SubUV_11X11_Noise, compiling. 
+[2018.11.05-15.56.10:895][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_FlareRound, compiling. 
+[2018.11.05-15.56.10:902][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_HeatDistort, compiling. 
+[2018.11.05-15.56.10:909][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Spark_VelocityLerp, compiling. 
+[2018.11.05-15.56.10:915][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Peasant, compiling. 
+[2018.11.05-15.56.10:924][ 95]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MAT_Body_inst, compiling. 
+[2018.11.05-15.56.12:092][ 95]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.05-15.56.12:092][ 95]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.05-15.56.12:093][ 95]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.05-15.56.12:093][ 95]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.05-15.56.12:093][ 95]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.05-15.56.12:093][ 95]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-15.56.12:093][ 95]TextureStreamingBuild: Display: Compiling optional shaders took 1.230 seconds.
+[2018.11.05-15.56.12:149][ 95]LogLevel: Display: Export Material TexCoord Scales took 0.056 seconds.
+[2018.11.05-15.56.12:757][ 95]TextureStreamingBuild: Display: Build Texture Streaming took 0.605 seconds.
+[2018.11.05-15.56.12:790][ 95]LightingResults: New page: Lighting Build - 5 Kas 2018 20:56:12
+[2018.11.05-15.56.12:840][ 95]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.05-15.56.12:843][ 95]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.05-15.56.12:843][ 95]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.05-15.56.12:844][ 95]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.05-15.56.12:844][ 95]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14916
+[2018.11.05-15.56.17:361][ 95]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.11.05-15.56.17:362][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.05-15.56.17:362][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.05-15.56.17:362][ 95]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.05-15.56.17:362][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.05-15.56.17:362][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.05-15.56.17:530][ 95]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.11.05-15.56.17:531][ 95]MapCheck: New page: Level_2 - 5 Kas 2018 20:56:17
+[2018.11.05-15.56.17:532][ 95]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.11.05-15.56.18:887][ 95]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.356,893ms to complete.
+[2018.11.05-15.56.18:911][ 95]LogEditorBuildUtils: Build time 0:10
+[2018.11.05-15.56.19:000][ 95]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Water_Lake, compiling. 
+[2018.11.05-15.56.19:010][ 95]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Water_Lake, compiling. 
+[2018.11.05-15.56.19:060][ 95]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.05-15.56.38:185][152]Job is a success!
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.183s
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport:      BrickData 540x5x5 = 0.5Mb (trimmed 2.9Mb due to 0.010000 MinBrickError)
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport:      Bricks at Level
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport:          0: 7.4% covering 100.0% of volume
+[2018.11.05-15.56.38:801][153]LogVolumetricLightmapImport:          1: 51.9% covering 10.9% of volume
+[2018.11.05-15.56.38:802][153]LogVolumetricLightmapImport:          2: 40.7% covering 0.1% of volume
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:264][153]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 512X512)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 512X512)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.11.05-15.56.39:265][153]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 128X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2018.11.05-15.56.39:572][153]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 128X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 128X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 128X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 64X64)
+[2018.11.05-15.56.39:573][153]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X128)
+[2018.11.05-15.56.39:601][153]Lightmass on DESKTOP-KQUM2EF: 18.4 sec total, 2.68 sec importing, 322 ms setup, 2.91 sec photons, 12.4 sec processing, 0 ms extra exporting [90/90 mappings]. Threads: 1:27 min total, 28.1 sec processing.
+[2018.11.05-15.56.39:693][153]LogStaticLightingSystem: Illumination: 26.5 sec (256 ms encoding lightmaps, 302 ms encoding shadowmaps)
+[2018.11.05-15.56.39:693][153]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 44 textures
+[2018.11.05-15.56.39:693][153]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 23 textures
+[2018.11.05-15.56.40:376][153]DumpUnbuiltLightIteractions
+[2018.11.05-15.56.40:376][153]Lights with unbuilt interactions: 0
+[2018.11.05-15.56.40:376][153]
+[2018.11.05-15.56.40:376][153]Primitives with unbuilt interactions: 0
+[2018.11.05-15.56.40:407][154]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.05-15.56.40:408][154]MapCheck: New page: Level_2 - 5 Kas 2018 20:56:40
+[2018.11.05-15.56.41:214][154]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 806,851ms to complete.
+[2018.11.05-16.04.14:451][501]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2_Auto236E1E6144804C71882E8B1A36881526C.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/Backup/Lepricaun/Level_2_Auto2.umap'
+[2018.11.05-16.04.14:462][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Backup/Lepricaun/Level_2' took 2.145
+[2018.11.05-16.04.14:462][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.145
+[2018.11.05-16.04.14:470][501]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Backup/Lepricaun/Level_2_BuiltData] ([1] browsable assets)...
+[2018.11.05-16.04.14:470][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Backup/Lepricaun/Level_2_BuiltData]
+[2018.11.05-16.04.14:541][501]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2_BuiltData_Auto26FF0F454429ED563554B0197A0B388DE.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Autosaves/Game/Backup/Lepricaun/Level_2_BuiltData_Auto2.uasset'
+[2018.11.05-16.04.14:544][501]LogFileHelpers: Auto-saving content packages took 0.077
+[2018.11.05-16.28.07:541][782]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-16.28.07:549][782]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-16.28.13:673][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-16.28.20:235][ 30]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2
+[2018.11.05-16.29.20:985][172]BlueprintLog: New page: Compile Level_2
+[2018.11.05-16.29.24:572][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.29.24:609][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.29.24:609][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.29.24:609][237]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:29:24)
+[2018.11.05-16.29.24:610][237]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.29.24:723][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112109s)
+[2018.11.05-16.29.24:724][237]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.29.24:724][237]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2018.11.05-16.29.24:724][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.113428s)
+[2018.11.05-16.29.24:773][237]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.29.24:877][237]LogInit: FAudioDevice initialized.
+[2018.11.05-16.29.24:910][237]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.29.24:974][237]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.29.24
+[2018.11.05-16.29.24:987][237]LogWorld: Bringing up level for play took: 0.075679
+[2018.11.05-16.29.25:004][237]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 0,979
+[2018.11.05-16.29.25:004][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.29.25:005][237]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.29.25:005][237]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.29.25:005][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.29.31:496][352]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-16.29.31:496][352]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-16.29.33:621][400]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-16.29.33:895][407]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2079.208 Y=4554.076 Z=130.843] for [FPProjectile_C]
+[2018.11.05-16.29.35:504][447]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-16.29.35:504][447]LogBlueprintUserMessages: [MyCharacter_C_0] 74.0
+[2018.11.05-16.29.35:873][455]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-16.29.37:806][496]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-16.29.37:806][496]LogBlueprintUserMessages: [MyCharacter_C_0] 76.0
+[2018.11.05-16.29.42:524][592]LogBlueprintUserMessages: [MyCharacter_C_0] 60
+[2018.11.05-16.29.42:524][592]LogBlueprintUserMessages: [MyCharacter_C_0] 78.0
+[2018.11.05-16.29.43:264][607]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-16.29.44:728][635]LogBlueprintUserMessages: [MyCharacter_C_0] 50
+[2018.11.05-16.29.44:728][635]LogBlueprintUserMessages: [MyCharacter_C_0] 80.0
+[2018.11.05-16.29.45:060][641]LogBlueprintUserMessages: [MyCharacter_C_0] 60
+[2018.11.05-16.29.46:730][672]LogBlueprintUserMessages: [MyCharacter_C_0] 40
+[2018.11.05-16.29.46:730][672]LogBlueprintUserMessages: [MyCharacter_C_0] 82.0
+[2018.11.05-16.29.47:057][678]LogBlueprintUserMessages: [MyCharacter_C_0] 50
+[2018.11.05-16.29.48:251][703]LogBlueprintUserMessages: [MyCharacter_C_0] 30
+[2018.11.05-16.29.48:251][703]LogBlueprintUserMessages: [MyCharacter_C_0] 84.0
+[2018.11.05-16.29.49:672][733]LogBlueprintUserMessages: [MyCharacter_C_0] 40
+[2018.11.05-16.29.50:488][752]LogBlueprintUserMessages: [MyCharacter_C_0] 20
+[2018.11.05-16.29.50:488][752]LogBlueprintUserMessages: [MyCharacter_C_0] 86.0
+[2018.11.05-16.29.51:211][768]LogBlueprintUserMessages: [MyCharacter_C_0] 10
+[2018.11.05-16.29.51:211][768]LogBlueprintUserMessages: [MyCharacter_C_0] 88.0
+[2018.11.05-16.29.54:433][838]LogBlueprintUserMessages: [MyCharacter_C_0] 0
+[2018.11.05-16.29.54:433][838]LogBlueprintUserMessages: [MyCharacter_C_0] 90.0
+[2018.11.05-16.29.54:433][838]Cmd: RestartLevel
+[2018.11.05-16.29.54:472][839]LogNet: Browse: /Game/Backup/Lepricaun/Level_2?restart
+[2018.11.05-16.29.54:513][839]LogLoad: LoadMap: /Game/Backup/Lepricaun/Level_2
+[2018.11.05-16.29.54:619][839]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.29.54:722][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103443s)
+[2018.11.05-16.29.54:723][839]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.29.54:723][839]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2018.11.05-16.29.54:723][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.104352s)
+[2018.11.05-16.29.54:723][839]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.29.54:797][839]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.29.54
+[2018.11.05-16.29.54:811][839]LogWorld: Bringing up level for play took: 0.086100
+[2018.11.05-16.29.54:815][839]LogLoad: Took 0.301984 seconds to LoadMap(/Game/Backup/Lepricaun/UEDPIE_0_Level_2)
+[2018.11.05-16.29.54:817][839]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.29.54:817][839]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.29.54:817][839]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.29.55:948][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.29.55:948][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.29.56:056][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.29.56:057][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.29.56:097][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.29.56:247][869]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2018.11.05-16.29.57:730][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-16.30.14:415][399]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-16.30.14:527][399]LogAssetEditorManager: Opening Asset editor for World /Game/Backup/Lepricaun/Level_1.Level_1
+[2018.11.05-16.30.17:629][399]LogSlate: Window 'Save Content' being destroyed
+[2018.11.05-16.30.21:183][399]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2D61ADA3F4EED0476201F7F941082CEE8.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2.umap'
+[2018.11.05-16.30.21:246][399]LogFileHelpers: Saving map 'Level_2' took 3.606
+[2018.11.05-16.30.21:442][399]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2_BuiltDataC8C037084FACF84FCC3E87864623D9B4.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2_BuiltData.uasset'
+[2018.11.05-16.30.21:450][399]Cmd: MAP LOAD FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-16.30.21:450][399]LightingResults: New page: Lighting Build
+[2018.11.05-16.30.21:451][399]LoadErrors: New page: Loading map: Level_1.umap
+[2018.11.05-16.30.21:563][399]MapCheck: New page: Map Check
+[2018.11.05-16.30.21:563][399]LightingResults: New page: Lighting Build
+[2018.11.05-16.30.21:999][399]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-16.30.22:089][399]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-16.30.22:324][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 234,879ms to complete.
+[2018.11.05-16.30.22:325][399]LogFileHelpers: Loading map 'Level_1' took 0.877
+[2018.11.05-16.30.25:674][567]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1
+[2018.11.05-16.30.29:136][753]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.30.29:170][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.29:170][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.30.29:171][753]PIE: New page: PIE session: Level_1 (5 Kas 2018 21:30:29)
+[2018.11.05-16.30.29:171][753]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-16.30.29:197][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025993s)
+[2018.11.05-16.30.29:198][753]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-16.30.29:198][753]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.11.05-16.30.29:198][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.026988s)
+[2018.11.05-16.30.29:243][753]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.30.29:343][753]LogInit: FAudioDevice initialized.
+[2018.11.05-16.30.29:366][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.30.29:417][753]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.30.29:438][753]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-19.30.29
+[2018.11.05-16.30.29:442][753]LogWorld: Bringing up level for play took: 0.023879
+[2018.11.05-16.30.29:460][753]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 -0,565
+[2018.11.05-16.30.29:460][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.29:603][754]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-16.30.30:702][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.30:702][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.30.30:735][792]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.30.30:813][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.30.30:813][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.30:888][793]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2018.11.05-16.30.31:775][846]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.30.31:810][846]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.31:810][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.30.31:810][846]PIE: New page: PIE session: Level_1 (5 Kas 2018 21:30:31)
+[2018.11.05-16.30.31:811][846]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_1
+[2018.11.05-16.30.31:838][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026923s)
+[2018.11.05-16.30.31:838][846]LogAIModule: Creating AISystem for world Level_1
+[2018.11.05-16.30.31:839][846]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2018.11.05-16.30.31:839][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_1.Level_1 to /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 (0.027889s)
+[2018.11.05-16.30.31:885][846]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.30.31:985][846]LogInit: FAudioDevice initialized.
+[2018.11.05-16.30.32:015][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.30.32:067][846]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.30.32:086][846]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2018.11.05-19.30.32
+[2018.11.05-16.30.32:089][846]LogWorld: Bringing up level for play took: 0.020687
+[2018.11.05-16.30.32:106][846]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_1 0,081
+[2018.11.05-16.30.32:106][846]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.32:242][847]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067603 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0', movement 'Walking'
+[2018.11.05-16.30.38:706][188]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2429.010 Y=462.160 Z=-150.564] for [FPProjectile_C]
+[2018.11.05-16.30.38:873][198]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2464.763 Y=468.574 Z=-137.392] for [FPProjectile_C]
+[2018.11.05-16.30.39:004][206]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-16.30.39:023][207]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2507.292 Y=471.775 Z=-124.031] for [FPProjectile_C]
+[2018.11.05-16.30.39:190][217]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-16.30.39:190][217]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-16.30.42:113][392]LogBlueprintUserMessages: [MyCharacter_C_0] 80
+[2018.11.05-16.30.42:113][392]LogBlueprintUserMessages: [MyCharacter_C_0] 74.0
+[2018.11.05-16.30.43:274][461]LogBlueprintUserMessages: [MyCharacter_C_0] 70
+[2018.11.05-16.30.43:274][461]LogBlueprintUserMessages: [MyCharacter_C_0] 76.0
+[2018.11.05-16.30.43:275][461]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1263.796 Y=306.884 Z=-124.506] for [EnemyAICharacter_C]
+[2018.11.05-16.30.47:849][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.47:850][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.30.47:881][733]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.30.47:939][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.30.47:939][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Backup/Lepricaun/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.11.05-16.30.48:013][734]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2018.11.05-16.30.55:951][152]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_164F4E6594C7F63CE597DE8AE6F600C6F.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_1.umap'
+[2018.11.05-16.30.56:029][152]LogFileHelpers: Saving map 'Level_1' took 0.940
+[2018.11.05-16.31.00:259][380]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.31.00:788][380]LogAssetEditorManager: Opening Asset editor for World /Game/Backup/Lepricaun/Level_2.Level_2
+[2018.11.05-16.31.00:841][380]Cmd: MAP LOAD FILE="../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-16.31.00:841][380]LightingResults: New page: Lighting Build
+[2018.11.05-16.31.00:841][380]LoadErrors: New page: Loading map: Level_2.umap
+[2018.11.05-16.31.00:914][380]MapCheck: New page: Map Check
+[2018.11.05-16.31.00:914][380]LightingResults: New page: Lighting Build
+[2018.11.05-16.31.03:037][380]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-16.31.03:169][380]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-16.31.03:400][380]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 230,616ms to complete.
+[2018.11.05-16.31.03:402][380]LogFileHelpers: Loading map 'Level_2' took 2.562
+[2018.11.05-16.31.09:285][611]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2
+[2018.11.05-16.31.21:792][998]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UAIBlueprintHelperLibrary::GetBlackboard' [Eleman bulunamadı.]
+[2018.11.05-16.31.44:913][668]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2FA3E02AF4F4D378C7035C78AB6537720.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2.umap'
+[2018.11.05-16.31.44:971][668]LogFileHelpers: Saving map 'Level_2' took 2.144
+[2018.11.05-16.31.50:870][845]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.11.05-16.31.51:034][846]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.05-16.31.51:034][846]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.05-16.31.51:034][846]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.05-16.31.51:034][846]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.05-16.31.51:137][846]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.11.05-16.31.53:553][889]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.05-16.31.53:795][894]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.05-16.31.53:993][897]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.05-16.31.55:526][923]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.05-16.31.55:625][925]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.05-16.31.56:178][933]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/mege/EnemyAI/EnemyAIBlackboard.EnemyAIBlackboard
+[2018.11.05-16.32.10:716][624]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2018.11.05-16.32.10:760][625]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.05-16.32.10:760][625]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.05-16.32.10:760][625]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.05-16.32.10:760][625]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.05-16.32.10:837][625]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2018.11.05-16.32.11:002][626]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2018.11.05-16.32.12:780][653]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.11.05-16.32.12:821][654]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.11.05-16.32.13:076][657]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.11.05-16.32.14:555][684]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.11.05-16.32.14:608][686]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.05-16.32.14:724][687]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2018.11.05-16.32.14:892][688]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2018.11.05-16.32.15:140][691]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.11.05-16.32.15:146][691]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.11.05-16.32.17:076][725]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.11.05-16.32.17:187][727]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.11.05-16.32.17:713][735]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.05-16.32.18:233][745]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.05-16.32.19:860][773]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.05-16.32.19:868][773]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.05-16.32.20:019][776]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.05-16.32.20:802][791]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.05-16.32.26:408][916]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/mege/EnemyAI/EnemyAIBlackboard.EnemyAIBlackboard
+[2018.11.05-16.32.56:261][904]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/mege/EnemyAI/EnemyAIBT.EnemyAIBT
+[2018.11.05-16.33.21:244][383]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UBlackboardComponent::SetValueAsBool' [Eleman bulunamadı.]
+[2018.11.05-16.33.35:440][231]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.33.35:477][231]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.33.35:477][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.33.35:478][231]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:33:35)
+[2018.11.05-16.33.35:478][231]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.33.35:580][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102864s)
+[2018.11.05-16.33.35:581][231]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.33.35:582][231]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2018.11.05-16.33.35:582][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.104606s)
+[2018.11.05-16.33.35:658][231]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.33.35:759][231]LogInit: FAudioDevice initialized.
+[2018.11.05-16.33.35:788][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.33.35:843][231]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.33.35:908][231]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.33.35
+[2018.11.05-16.33.35:922][231]LogWorld: Bringing up level for play took: 0.077056
+[2018.11.05-16.33.35:942][231]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 -0,082
+[2018.11.05-16.33.35:942][231]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.33.35:943][231]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.33.35:943][231]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_0
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.33.35:944][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.33.36:723][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.33.36:723][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.33.36:760][240]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.33.36:976][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.33.36:977][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.33.37:110][241]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2018.11.05-16.33.51:518][105]LogBlueprint: Warning: Unknown type of hyperlinked object (Level_2), cannot focus it
+[2018.11.05-16.33.51:518][105]LogBlueprint: Warning: Unknown type of hyperlinked object (Level_2), cannot focus it
+[2018.11.05-16.34.04:387][869]BlueprintLog: New page: Compile Level_2
+[2018.11.05-16.34.06:207][967]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.34.06:240][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.06:240][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.34.06:240][967]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:34:06)
+[2018.11.05-16.34.06:240][967]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.34.06:341][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101345s)
+[2018.11.05-16.34.06:342][967]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.34.06:342][967]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2018.11.05-16.34.06:342][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.102464s)
+[2018.11.05-16.34.06:387][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.34.06:482][967]LogInit: FAudioDevice initialized.
+[2018.11.05-16.34.06:497][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.06:554][967]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.34.06:616][967]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.34.06
+[2018.11.05-16.34.06:630][967]LogWorld: Bringing up level for play took: 0.074638
+[2018.11.05-16.34.06:649][967]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 0,625
+[2018.11.05-16.34.06:650][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.06:651][967]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.34.06:651][967]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.34.06:651][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.34.06:945][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.06:946][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.06:977][968]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.34.07:127][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.34.07:127][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.07:254][969]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2018.11.05-16.34.08:749][ 58]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.34.08:780][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.08:780][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.34.08:780][ 58]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:34:08)
+[2018.11.05-16.34.08:780][ 58]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.34.08:879][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098637s)
+[2018.11.05-16.34.08:881][ 58]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.34.08:881][ 58]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2018.11.05-16.34.08:881][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.100394s)
+[2018.11.05-16.34.08:927][ 58]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.34.09:022][ 58]LogInit: FAudioDevice initialized.
+[2018.11.05-16.34.09:037][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.09:096][ 58]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.34.09:155][ 58]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.34.09
+[2018.11.05-16.34.09:167][ 58]LogWorld: Bringing up level for play took: 0.071109
+[2018.11.05-16.34.09:188][ 58]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 1,164
+[2018.11.05-16.34.09:189][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.09:190][ 58]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.34.09:190][ 58]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.34.09:190][ 58]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.34.10:556][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.10:556][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.10:589][ 78]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.34.10:749][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.34.10:749][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.10:879][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2018.11.05-16.34.19:268][582]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.34.19:301][582]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.19:301][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.34.19:301][582]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:34:19)
+[2018.11.05-16.34.19:302][582]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.34.19:401][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099795s)
+[2018.11.05-16.34.19:402][582]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.34.19:402][582]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2018.11.05-16.34.19:402][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.101022s)
+[2018.11.05-16.34.19:450][582]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.34.19:546][582]LogInit: FAudioDevice initialized.
+[2018.11.05-16.34.19:579][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.19:631][582]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.34.19:693][582]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.34.19
+[2018.11.05-16.34.19:706][582]LogWorld: Bringing up level for play took: 0.073149
+[2018.11.05-16.34.19:726][582]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 -0,299
+[2018.11.05-16.34.19:726][582]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.19:727][582]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.34.19:727][582]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.34.19:728][582]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.34.23:413][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.23:413][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.23:444][655]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.34.23:688][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.34.23:689][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.23:811][656]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2018.11.05-16.34.27:427][870]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.34.27:459][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.27:459][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.34.27:459][870]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:34:27)
+[2018.11.05-16.34.27:459][870]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.34.27:558][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099506s)
+[2018.11.05-16.34.27:559][870]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.34.27:559][870]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.11.05-16.34.27:559][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.100556s)
+[2018.11.05-16.34.27:602][870]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.34.27:700][870]LogInit: FAudioDevice initialized.
+[2018.11.05-16.34.27:715][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.27:770][870]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.34.27:830][870]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.34.27
+[2018.11.05-16.34.27:843][870]LogWorld: Bringing up level for play took: 0.071708
+[2018.11.05-16.34.27:862][870]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 -0,162
+[2018.11.05-16.34.27:863][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.27:864][870]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.34.27:864][870]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.34.27:864][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.34.35:531][ 20]LogBlueprintUserMessages: [MyCharacter_C_0] 90
+[2018.11.05-16.34.35:532][ 20]LogBlueprintUserMessages: [MyCharacter_C_0] 72.0
+[2018.11.05-16.34.37:443][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.37:443][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.37:475][ 68]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.34.37:637][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.34.37:637][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.37:761][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2018.11.05-16.34.42:798][371]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.34.42:840][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.42:840][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.34.42:840][371]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:34:42)
+[2018.11.05-16.34.42:841][371]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.34.42:939][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097748s)
+[2018.11.05-16.34.42:940][371]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.34.42:940][371]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2018.11.05-16.34.42:940][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.099117s)
+[2018.11.05-16.34.42:987][371]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.34.43:081][371]LogInit: FAudioDevice initialized.
+[2018.11.05-16.34.43:103][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.43:153][371]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.34.43:222][371]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.34.43
+[2018.11.05-16.34.43:234][371]LogWorld: Bringing up level for play took: 0.080958
+[2018.11.05-16.34.43:254][371]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 1,229
+[2018.11.05-16.34.43:254][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.43:256][371]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.34.43:256][371]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_1
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.34.43:256][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.34.44:453][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.44:453][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.34.44:486][390]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.34.44:668][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.34.44:669][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.34.44:777][391]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2018.11.05-16.34.51:885][814]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.05-16.35.17:403][315]BlueprintLog: New page: Compile Level_2
+[2018.11.05-16.35.19:116][406]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-16.35.19:149][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.35.19:150][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-16.35.19:150][406]PIE: New page: PIE session: Level_2 (5 Kas 2018 21:35:19)
+[2018.11.05-16.35.19:150][406]LogPlayLevel: Creating play world package: /Game/Backup/Lepricaun/UEDPIE_0_Level_2
+[2018.11.05-16.35.19:250][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099457s)
+[2018.11.05-16.35.19:251][406]LogAIModule: Creating AISystem for world Level_2
+[2018.11.05-16.35.19:251][406]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.11.05-16.35.19:251][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Backup/Lepricaun/Level_2.Level_2 to /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 (0.100640s)
+[2018.11.05-16.35.19:298][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.05-16.35.19:395][406]LogInit: FAudioDevice initialized.
+[2018.11.05-16.35.19:422][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.35.19:475][406]LogLoad: Game class is 'GM_Volkan_C'
+[2018.11.05-16.35.19:542][406]LogWorld: Bringing World /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.11.05-19.35.19
+[2018.11.05-16.35.19:556][406]LogWorld: Bringing up level for play took: 0.080314
+[2018.11.05-16.35.19:577][406]PIE: Play in editor start time for /Game/Backup/Lepricaun/UEDPIE_0_Level_2 -0,447
+[2018.11.05-16.35.19:577][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.35.19:578][406]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5570.000 Y=1500.000 Z=-10.000] for [EnemyAICharacter_C]
+[2018.11.05-16.35.19:579][406]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Level_C /Game/Backup/Lepricaun/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_2
+	Function /Game/Backup/Lepricaun/Level_2.Level_C:ExecuteUbergraph_Level_2:00E6
+[2018.11.05-16.35.19:579][406]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Level_2 Function:  Execute Ubergraph Level 2 Graph:  EventGraph Node:  Set Value as Bool
+[2018.11.05-16.35.20:731][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.35.20:731][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-16.35.20:763][422]LogSlate: Window 'GJ_TeamCarry Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.05-16.35.20:971][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.05-16.35.20:971][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/Backup/Lepricaun/Level_2.Level_C' with ClassGeneratedBy '/Game/Backup/Lepricaun/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.11.05-16.35.21:102][423]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2018.11.05-16.35.30:819][864]LogSavePackage: Moving '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Saved/Level_2F348A5984E69618AED97EB82A0B20F68.tmp' to '../../../../../../Users/Mahir/Documents/GitHub/TeamCarry/GJ_TeamCarry/Content/Backup/Lepricaun/Level_2.umap'
+[2018.11.05-16.35.31:008][864]LogFileHelpers: Saving map 'Level_2' took 2.300
